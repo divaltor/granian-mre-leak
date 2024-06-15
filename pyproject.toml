@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "granian-django"
+version = "0.1.0"
+description = ""
+authors = ["divaltor <divaltor@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+granian = "^1.4.3"
+gunicorn = "^22.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+memray = "^1.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
